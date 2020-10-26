@@ -1,0 +1,44 @@
+@media (max-width: 1000px) {
+	.test h3 {
+		font-size: 40px;
+		top: 105px;
+		left: 90px;
+	}
+	.home1 a {
+		font-size: 13px;
+		top: 80px;
+		left: 90px;
+	}
+	.about1 a {
+		font-size: 13px;
+		top: 80px;
+		left: 200px;
+	}
+	.gamkofi {
+		display: none;
+	}
+	.gamkofi2 {
+		position: absolute;
+		height: 17px;
+		width: 2px;
+		background-color: #fff;
+		left: 169px;
+		top: 77px;
+	}
+	.history1 {
+		flex-wrap: wrap;
+	}
+	.history1 .img1  {
+		width: 100px;
+	}
+	.history1 .img2{
+		width: 100px;
+	}
+	.history1 .img3 {
+		width: 200px;
+	}
+	.photo {
+		flex-direction: column;
+		align-items: center;
+	}
+}
