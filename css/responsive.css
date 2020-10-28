@@ -1,16 +1,66 @@
+@media (max-width: 520px) {
+	.hpar {
+		flex-wrap: wrap;
+		margin: 0 0 0 0;
+		margin-left: 20px;
+	}
+}
+@media (max-width: 620px) {
+	.sataurite {
+	    font-size: 30px;
+
+	}
+}
+@media (max-width: 700px){
+	.nav-ul {
+		display: none;
+	}
+	.menuicon {
+		display: block;
+		width: 50px;
+		font-size: 20px;
+		transition: all 0.7s ease;
+	}
+	.menuicon:hover {
+		color: #EF0C23;
+		transition: all 0.7s ease;
+	}
+	.photo {
+		flex-wrap: wrap;
+	}
+	.img1 {
+
+	}
+	.proffile {
+		flex-wrap: wrap;
+		max-width: 400px;
+		width: 200px;
+		justify-content: space-around;
+	}
+    .marcxena {
+		margin: 0 0 0 0;
+		margin-top: 21px;
+		margin-left: 290px;
+	}
+}
+@media (max-width: 720px){
+	.box {
+		height: 150px;
+	}
+}
 @media (max-width: 1000px) {
 	.test h3 {
-		font-size: 40px;
+		font-size: 50px;
 		top: 105px;
 		left: 90px;
 	}
 	.home1 a {
-		font-size: 13px;
+		font-size: 18px;
 		top: 80px;
 		left: 90px;
 	}
 	.about1 a {
-		font-size: 13px;
+		font-size: 18px;
 		top: 80px;
 		left: 200px;
 	}
@@ -25,20 +75,54 @@
 		left: 169px;
 		top: 77px;
 	}
-	.history1 {
+	.wraper {
 		flex-wrap: wrap;
-	}
-	.history1 .img1  {
-		width: 100px;
-	}
-	.history1 .img2{
-		width: 100px;
-	}
-	.history1 .img3 {
-		width: 200px;
-	}
-	.photo {
 		flex-direction: column;
 		align-items: center;
+	}
+	.photo {
+		margin: 0 0 0 0 ;
+	}
+	.photo .img1, .img2,   {
+		width: 100px;
+		justify-content: space-around;
+		align-items: center;
+	}
+	.proffile {
+		flex-wrap: wrap;
+		max-width: 400px;
+		width: 200px;
+		justify-content: space-around;
+	}
+	.marcxena {
+		margin: 0 0 0 0;
+		margin-top: 21px;
+		margin-left: 290px;
+	}
+
+}
+@media (max-width: 1040px){
+	.images{
+		margin-top: 20px;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.image1 , .image2 , .image3 {
+		width: 300px;
+	}
+}
+@media (max-width: 1300px) {
+	.wraper {
+		flex-wrap: wrap;
+	}
+	.photo .img1 , .img2 ,   {
+		width: 100px;
+		justify-content: space-around;
+		align-items: center;
+	}
+}
+@media (max-width: 1370px) {
+	.imgproffile {
+		width: 250px;
 	}
 }
